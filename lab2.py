@@ -9,7 +9,7 @@ from sklearn.dummy import DummyClassifier
 import joblib
 
 # Load your dataset
-data = pd.read_csv('/home/fola/Downloads/customer_churn_data.csv')
+data = pd.read_csv('https://docs.google.com/spreadsheets/d/1bN2C5iD8uNG4BQrtXE5WNpGBhEdEjpcWBEJ8alT1oks/edit?usp=sharing')
 
 # Save customer_id for later use and drop from feature set
 if 'customer_id' in data.columns:
